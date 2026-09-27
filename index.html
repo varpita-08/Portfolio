@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpita Verma | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: '#e845a1',
+                        brandLight: '#f5f5f5',
+                        accent: '#9f44e9'
+                    },
+                    boxShadow: {
+                        soft: '0 2px 10px rgba(0, 0, 0, 0.08)'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100 text-slate-800 leading-relaxed">
+    <header class="sticky top-0 z-10 bg-brand text-white shadow-sm">
+        <nav class="py-4">
+            <ul class="flex justify-center items-center gap-6 list-none">
+                <li><a href="#home" class="font-medium text-white hover:underline">Home</a></li>
+                <li><a href="#about" class="font-medium text-white hover:underline">About</a></li>
+                <li><a href="#projects" class="font-medium text-white hover:underline">Projects</a></li>
+                <li><a href="#contact" class="font-medium text-white hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="bg-gradient-to-br from-[#e7498b] to-[#9f44e9] px-4 py-20 text-center text-white">
+        <h1 class="mb-4 text-4xl font-bold md:text-5xl">Hey, I’m <span class="inline-block text-white/90">Arpita Verma</span></h1>
+        <p class="mx-auto max-w-2xl text-lg md:text-xl">College student | Coder | Tech enthusiast who loves creative activities & building stuff</p>
+    </section>
+
+    <section id="about" class="px-4 py-16 text-center">
+        <h2 class="text-3xl font-bold text-slate-800">About Me</h2>
+        <div class="mt-10 flex flex-wrap items-center justify-center gap-8">
+            <div class="h-52 w-52 overflow-hidden rounded-full border-4 border-brand shadow-soft">
+                <img src="logo.jpg" alt="Arpita Verma" class="h-full w-full object-cover">
+            </div>
+            <div class="max-w-2xl text-left md:text-left">
+                <p class="mb-4 text-base md:text-lg">I’m Arpita, a college student exploring the world of technology, coding, and problem-solving. I enjoy building projects, experimenting with new ideas, and learning by actually creating things. I’m curious about how technology works and love figuring things out from writing code and debugging problems to exploring new tools and concepts.</p>
+
+                <p class="text-base md:text-lg">Beyond tech, I’m a big fan of hindi songs and enjoy spending time with the people who matter to me. I’m always looking to learn something new, improve my skills, and grow a little every day while keeping things simple, genuine, and real. I love singing, travelling, cooking, arts and everything which is cute and creative.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="px-4 py-16 text-center">
+        <h2 class="text-3xl font-bold text-slate-800">Projects</h2>
+        <div class="mt-8 grid gap-6 md:grid-cols-2">
+            <div class="rounded-xl bg-white p-6 shadow-soft transition duration-300 hover:-translate-y-1">
+                <h3 class="mb-3 text-xl font-semibold text-slate-800">Portfolio v1</h3>
+                <p class="text-slate-600">This very site — my first personal portfolio to showcase who I am and what I’m building.</p>
+            </div>
+            <div class="rounded-xl bg-white p-6 shadow-soft transition duration-300 hover:-translate-y-1">
+                <h3 class="mb-3 text-xl font-semibold text-slate-800">More Coming Soon</h3>
+                <p class="text-slate-600">Real projects will land here soon. I’d rather put quality over filler.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="px-4 py-16 text-center">
+        <h2 class="text-3xl font-bold text-slate-800">Contact</h2>
+        <div class="mx-auto mt-6 max-w-xl space-y-3 text-base md:text-lg">
+            <p>If you’d like to connect, collab, or just chat tech — here’s where you’ll find me:</p>
+            <p>Email: <a href="mailto:arpita.26bcs10726@sst.scaler.com" class="text-brand hover:underline">arpita.26bcs10726@sst.scaler.com</a></p>
+            <p>GitHub: <a href="https://github.com/varpita-08" target="_blank" class="text-brand hover:underline">varpita-08</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/arpita-verma-54676a424/" target="_blank" class="text-brand hover:underline">Arpita Verma</a></p>
+        </div>
+    </section>
+
+    <footer class="bg-brand px-4 py-4 text-center text-white">
+        <p>Made with coffee & late nights © Arpita Verma 2026</p>
+    </footer>
+</body>
+</html>
